@@ -303,13 +303,12 @@ img {
   width: 1200px;
   height: 200px;
   margin: 25px auto;
+  display: flex;
 }
 
 .footer .f-box .f-one {
-  float: left;
-  width: 260px;
+  width: 240px;
   padding-left: 44px;
-  border-right: 1px solid #666;
 }
 
 .footer .f-box .f-one .tel {
@@ -375,6 +374,44 @@ img {
   line-height: 22px;
   padding-left: 3px;
   font-size: 12px;
+}
+
+.footer .f-box .f-two {
+  width: 100px;
+  padding-left: 25px;
+  border-left: 1px solid #e1e1e1;
+  height: 150px;
+}
+
+.footer .f-box .f-two dt {
+  margin-bottom: 14px;
+}
+
+.footer .f-box .f-two dt a {
+  font-size: 16px;
+  color: #444;
+  font-family: microsoft yahei;
+}
+
+.footer .f-box .f-two dd {
+  display: block;
+}
+
+.footer .f-box .f-two dd a {
+  height: 22px;
+  line-height: 22px;
+  color: #999;
+  font-size: 12px;
+}
+
+.footer .f-box .wei {
+  padding-top: 11px;
+  padding-left: 33px;
+  float: left;
+  background: url(../img/ss.jpg) no-repeat 30px 104px;
+  width: 125px;
+  height: 150px;
+  border-left: 1px solid #e1e1e1;
 }
 
 .brand {

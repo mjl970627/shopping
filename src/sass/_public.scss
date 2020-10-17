@@ -276,11 +276,11 @@ img {
         width: 1200px;
         height: 200px;
         margin: 25px auto;
+        display: flex;
         .f-one{
-            float: left;
-            width: 260px;
+            // float: left;
+            width: 240px;
             padding-left: 44px;
-            border-right: 1px solid #666;
             .tel{
                 background: url(../img/detail.gif) no-repeat 0 -157px;
                 width: 197px;
@@ -339,6 +339,38 @@ img {
                 font-size: 12px;
             }
         }
+        .f-two{
+            width: 100px;
+            padding-left: 25px;
+            border-left: 1px solid #e1e1e1;
+            height: 150px;
+            dt{
+                margin-bottom: 14px;
+                a{
+                    font-size: 16px;
+                    color: #444;
+                    font-family: microsoft yahei;
+                }
+            }
+            dd{
+                display: block;
+                a{
+                    height: 22px;
+                    line-height: 22px;
+                    color: #999;
+                    font-size: 12px;
+                }
+            }
+        }
+        .wei{
+            padding-top: 11px;
+            padding-left: 33px;
+            float: left;
+            background: url(../img/ss.jpg) no-repeat 30px 104px;
+            width: 125px;
+            height: 150px;
+            border-left: 1px solid #e1e1e1;
+        }    
     }  
 }
 
