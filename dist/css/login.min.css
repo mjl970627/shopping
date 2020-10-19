@@ -614,91 +614,157 @@ img {
   font-family: microsoft yahei;
 }
 
-.brand {
-  width: 1200px;
+.big {
+  width: 980px;
+  height: auto;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
-.brand .ime {
-  width: 450px;
-  text-align: center;
-  margin: 40px auto;
+.big .rebox {
+  width: 958px;
+  border: 1px solid #c6e6f3;
+  padding: 10px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
-.brand .ime .im1 {
-  vertical-align: top;
-  border: 0 none;
+.big .rebox .log {
+  width: 455px;
+  height: 453px;
+  padding: 0 10px;
+  margin-top: 40px;
   float: left;
-  width: 94px;
-  height: 21px;
-  margin-top: 16px;
 }
 
-.brand .ime .im2 {
-  vertical-align: top;
-  border: 0 none;
+.big .rebox .log .ime {
+  width: 439px;
+  height: 43px;
+  background: url(../img/reg-bg.png) no-repeat;
+  background-position: -162px -153px;
+  margin-bottom: 37px;
+}
+
+.big .rebox .log form .input {
+  height: 55px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+.big .rebox .log form .input p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+}
+
+.big .rebox .log form .input .inp {
+  width: 200px;
+  padding: 2px;
+}
+
+.big .rebox .log form .input .yan {
+  width: 50px;
+  padding: 2px;
+}
+
+.big .rebox .log form .input span {
+  display: block;
+}
+
+.big .rebox .log .btn {
+  height: 29px;
+  width: 90px;
+  margin-left: 170px;
+  margin-bottom: 20px;
+}
+
+.big .rebox .log .he {
+  margin-left: 60px;
+}
+
+.big .rebox .log .he p {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+}
+
+.big .rebox .line {
+  background-image: url(../img/reg-bg.png);
+  background-repeat: no-repeat;
+  height: 403px;
+  width: 1px;
+  float: left;
+  background-position: -928px -83px;
+}
+
+.big .rebox .reg {
   float: right;
-  width: 94px;
-  height: 21px;
-  margin-top: 16px;
+  width: 455px;
+  height: 453px;
+  padding: 0 10px;
+  margin-top: 40px;
 }
 
-.brand .ime .pin {
+.big .rebox .reg .ime {
+  width: 439px;
+  height: 43px;
+  background: url(../img/reg-bg.png) no-repeat;
+  background-position: -163px -197px;
+  margin-bottom: 37px;
+}
+
+.big .rebox .reg .input {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+.big .rebox .reg .input p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
   float: left;
-  width: 262px;
-  font-weight: 400;
-  line-height: 48px;
-  font-size: 40px;
-  color: #000;
 }
 
-.brand .brand-list li {
-  width: 535px;
-  height: 210px;
-  border: 1px solid #ddd;
-  padding: 5px;
-  margin: 0 10px 20px;
-  overflow: hidden;
-  float: left;
-  cursor: pointer;
+.big .rebox .reg .input img {
+  margin-left: 3px;
 }
 
-.brand .brand-list li div {
-  float: left;
-  padding-top: 63px;
+.big .rebox .reg .input .inp {
+  width: 200px;
+  padding: 2px;
 }
 
-.brand .brand-list li div .small {
-  width: 139px;
-  height: 53px;
-  margin-left: 35px;
+.big .rebox .reg .input span {
+  display: block;
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 50px;
 }
 
-.brand .brand-list li div .ya {
-  width: 180px;
-  line-height: 34px;
-  font-size: 28px;
-  text-align: center;
-  margin-left: 15px;
+.big .rebox .reg .input #yan {
+  width: 50px;
+  padding: 2px;
 }
 
-.brand .brand-list li .big {
-  float: right;
-  width: 322px;
-  height: 210px;
+.big .rebox .reg .input a {
+  color: blue;
 }
 
-.brand .mai {
-  margin: 0 auto 43px;
-  width: 183px;
-  height: 50px;
-  color: white;
-  font-size: 25px;
-  background: #ff1e62;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 50px;
-  cursor: pointer;
-  clear: both;
+.big .rebox .reg .input a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.big .rebox .reg .btn {
+  height: 29px;
+  width: 90px;
+  margin-left: 170px;
+  margin-bottom: 20px;
 }

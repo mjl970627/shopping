@@ -43,9 +43,7 @@
             margin: 0 10px 20px;
             overflow: hidden;
             float: left;
-            cursor: hand;
             cursor: pointer;
-            position: relative;
             div{
                 float: left;
                 padding-top: 63px;
@@ -59,9 +57,7 @@
                     line-height: 34px;
                     font-size: 28px;
                     text-align: center;
-                    position: absolute;
-                    top: 130px;
-                    left: 20px;
+                    margin-left: 15px;
                 }
             }
             .big{

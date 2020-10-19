@@ -614,91 +614,113 @@ img {
   font-family: microsoft yahei;
 }
 
-.brand {
-  width: 1200px;
+#wrap {
   margin: 0 auto;
+  width: 980px;
+  height: auto;
+  padding-bottom: 50px;
 }
 
-.brand .ime {
-  width: 450px;
-  text-align: center;
-  margin: 40px auto;
-  overflow: hidden;
+#wrap .big {
+  border: 1px solid #C6E6F3;
+  margin-top: 10px;
+  padding: 10px;
+  width: 958px;
 }
 
-.brand .ime .im1 {
-  vertical-align: top;
-  border: 0 none;
+#wrap .big .reg {
+  width: 671px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#wrap .big .reg .bg {
+  height: 41px;
+  width: 620px;
+  background-image: url(../img/reg-bg.png);
+  background-repeat: no-repeat;
+  background-position: -162px -69px;
+  margin-bottom: 37px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#wrap .big .reg form .regbox {
+  padding-left: 110px;
+}
+
+#wrap .big .reg form .regbox .input {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#wrap .big .reg form .regbox .input p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
   float: left;
-  width: 94px;
-  height: 21px;
-  margin-top: 16px;
 }
 
-.brand .ime .im2 {
-  vertical-align: top;
-  border: 0 none;
-  float: right;
-  width: 94px;
-  height: 21px;
-  margin-top: 16px;
+#wrap .big .reg form .regbox .input img {
+  margin-left: 3px;
 }
 
-.brand .ime .pin {
-  float: left;
-  width: 262px;
-  font-weight: 400;
-  line-height: 48px;
-  font-size: 40px;
-  color: #000;
+#wrap .big .reg form .regbox .input .inp {
+  width: 200px;
+  padding: 2px;
 }
 
-.brand .brand-list li {
-  width: 535px;
-  height: 210px;
-  border: 1px solid #ddd;
-  padding: 5px;
-  margin: 0 10px 20px;
-  overflow: hidden;
-  float: left;
-  cursor: pointer;
+#wrap .big .reg form .regbox .input span {
+  display: block;
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 50px;
 }
 
-.brand .brand-list li div {
-  float: left;
-  padding-top: 63px;
+#wrap .big .reg form .regbox .input #yan {
+  width: 50px;
+  padding: 2px;
 }
 
-.brand .brand-list li div .small {
-  width: 139px;
-  height: 53px;
-  margin-left: 35px;
+#wrap .big .reg form .regbox .input a {
+  color: blue;
 }
 
-.brand .brand-list li div .ya {
-  width: 180px;
-  line-height: 34px;
-  font-size: 28px;
-  text-align: center;
-  margin-left: 15px;
+#wrap .big .reg form .regbox .input a:hover {
+  color: red;
+  text-decoration: underline;
 }
 
-.brand .brand-list li .big {
-  float: right;
-  width: 322px;
-  height: 210px;
+#wrap .big .reg form .regbox .btn {
+  height: 29px;
+  width: 90px;
+  margin-left: 170px;
+  margin-bottom: 20px;
 }
 
-.brand .mai {
-  margin: 0 auto 43px;
-  width: 183px;
-  height: 50px;
-  color: white;
-  font-size: 25px;
-  background: #ff1e62;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 50px;
-  cursor: pointer;
-  clear: both;
+#wrap .big .reg form .regbox .ipt {
+  height: 55px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+#wrap .big .reg form .regbox .ipt a {
+  color: #0080FF;
+}
+
+#wrap .big .reg form .regbox .ipt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#wrap .big .reg .und {
+  width: 671px;
+  height: 3px;
+  background: url(../img/reg-bg.png) no-repeat;
+  background-position: -161px -435px;
+  margin: 18px auto 40px;
 }

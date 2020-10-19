@@ -59,8 +59,50 @@ img {
 
 
 .meau {
-    b {
-      color: #ddd;
+    position: relative;
+        b {
+            top: 14px;
+            right: 2px;
+            width: 7px;
+            height: 4px;
+            background: url(../img/detail.gif) no-repeat -252px -30px;
+            position: absolute;
+            // overflow: hidden;
+        }
+    .er{
+        display: none;
+        width: 70px;
+        height: 75px;
+        padding-top: 5px;
+        background: white;
+        text-align: left;
+        position: absolute;
+        top: 33px;
+        left: -1px;
+        z-index: 111;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        p{
+            line-height: 10px;
+            font-size: 12px;
+            height: 20px;
+        }
+        p:hover{
+            
+            a{
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.meau:hover{
+    background: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    .er{
+        display: block;
     }
 }
 .line {
@@ -173,10 +215,63 @@ img {
         background: url(../img/qrcode-app-80.png) no-repeat;
         width: 80px;
         height: 80px;
-        // margin-left: 500px;
-        // margin-top: -15px;
         top: 36px;
-        left: 1000px;
+        left: 1020px;
+        .fu{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #999999;
+            position: absolute;
+            top: 4px;
+            left: -60px;
+            background: white;
+            box-shadow: 3px 5px 5px #c3c3c3;
+            z-index: 222;
+            display: none;
+            .top{
+                height: 90px;
+                border-bottom: 1px solid #cccccc;
+                padding: 5px;
+                p{
+                    .android{
+                        background-position: 0 -26px;
+                    }
+                    a{
+                        width: 25px;
+                        height: 25px;
+                        display: inline-block;
+                        background: url(../img/mobile-system.png) no-repeat;
+                        margin-right: 5px;
+                        margin-top: 5px;
+                    }
+                }
+                b{
+                    font-size: 13px;
+                    color: #666666;
+                    font-weight: normal;
+                }
+                img{
+                    float: left;
+                }
+            }
+            .but{
+                height: 90px;
+                padding: 5px;
+                img{
+                    float: left;
+                }
+                b{
+                    font-size: 13px;
+                    color: #666666;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    .ewm:hover{
+        .fu{
+            display: block;
+        }
     }
     .cart{
         float: right;
@@ -197,11 +292,37 @@ img {
             z-index: 11;
             height: 44px;
             line-height: 44px;
+            position: relative;
             b{
                 color: red;
                 margin: 0 4px;
             }
         }
+        .cat:hover{
+            background : url(../img/detail.gif) no-repeat 0px -73px;
+            
+        }
+        .catlist{
+            display: none;
+            width: 300px;
+            height: 60px;
+            background: white;
+            position: absolute;
+            border-bottom: 1px solid #dfdfdf;
+            border-left: 1px solid #dfdfdf;
+            border-right: 1px solid #dfdfdf;
+            top: 44px;
+            right: 0;
+            z-index: 222;
+            font-size: 12px;
+            text-align: left;
+            line-height: 60px;
+        }
+    }
+    .cart:hover{
+        .catlist{
+                display: block;
+            }
     }
 }
 // nav
@@ -218,8 +339,32 @@ img {
             position: absolute;
             top: 0;
             left: 0;
-            background: url(../img/detail.gif) no-repeat 0 -117px;
+            dl{
+                // display: none;
+                overflow: hidden;
+                width: 230px;
+                height: 0;
+                // background: #f8f8f8;
+                dt{
+                    display: inline;
+                    position: relative;
+                    float: left;
+                    width: 208px;
+                    border: 1px solid #e7e7e7;
+                    border-top: none;
+                    line-height: 22px;
+                    overflow: hidden;
+                    text-align: left;
+                    padding: 13px 0px 6px 20px;
+                    background: #f8f8f8;
+                    p{
+                        font-size: 12px;
+                        word-spacing: 5px;
+                    }
+                }
+            }
             .list{
+                background: url(../img/detail.gif) no-repeat 0 -117px;
                 display: block;
                 width: 230px;
                 z-index: 2;
@@ -232,6 +377,11 @@ img {
                 font-size: 16px;
             }
         }
+        // .shop:hover{
+        //     #webf0{
+        //         display: block;
+        //     }
+        // }
         .lie{
             position: absolute;
             top: 0;
@@ -372,5 +522,45 @@ img {
             border-left: 1px solid #e1e1e1;
         }    
     }  
+}
+// foot-bottom
+.foot-bottom{
+    width: 880px;
+    border-bottom: 1px solid #ccc;
+    height: 130px;
+    // clear: both;
+    margin: 0 auto;
+    padding: 0 160px 0 160px;
+    display: flex;
+    .fb{
+        width: 140px;
+        height: 110px;
+        margin: 0 40px;
+        dt{
+            width: 108px;
+            height: 50px;
+            margin-bottom: 10px;
+            margin-left: 16px;
+        }
+        dd{
+            text-align: center;
+            line-height: 20px;
+            height: 20px;
+            font-size: 13px;
+            color: #444;
+            font-family: microsoft yahei;
+        }
+    }
+}
+// dibu
+.dibu{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 44px;
+    height: 44px;
+    font-size: 14px;
+    color: #444;
+    font-family: microsoft yahei;
 }
 

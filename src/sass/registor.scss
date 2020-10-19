@@ -1,0 +1,96 @@
+@import 'public';
+// wrap
+#wrap{
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    padding-bottom: 50px;
+    .big{
+        border: 1px solid #C6E6F3;
+        margin-top: 10px;
+        padding: 10px;
+        // text-align: left;
+        width: 958px;
+        .reg{
+            width: 671px;
+            margin-right: auto;
+            margin-left: auto;
+            .bg{
+                height: 41px;
+                width: 620px;
+                background-image: url(../img/reg-bg.png);
+                background-repeat: no-repeat;
+                background-position: -162px -69px;
+                margin-bottom: 37px;
+                margin-top: 40px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            form .regbox{
+                    padding-left: 110px;
+                    .input{
+                        margin-left: 50px;
+                        height: 55px;
+                        font-size: 12px;
+                        p{
+                            width: 60px;
+                            height: 25px;
+                            line-height: 23px;
+                            text-align: right;
+                            float: left;
+                        }
+                        img{
+                            margin-left: 3px;
+                        }
+                        .inp{
+                            width: 200px;
+                            padding: 2px;        
+                        }
+                        span{
+                            display: block;
+                            height: 25px;
+                            font-size: 12px;
+                            line-height: 25px;
+                            padding-left: 50px;
+                        }
+                        #yan{
+                            width: 50px;
+                            padding: 2px;
+                        }
+                        a{
+                            color: blue;
+                        }
+                        a:hover{
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                    .btn{
+                        height: 29px;
+                        width: 90px;
+                        margin-left: 170px;
+                        margin-bottom: 20px;
+                    }
+                    .ipt{
+                        height: 55px;
+                        margin-left: 50px;
+                        font-size: 12px;
+                        a{
+                            color: #0080FF;
+                        }
+                        a:hover{
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            .und{
+                width: 671px;
+                height: 3px;
+                background: url(../img/reg-bg.png) no-repeat;
+                background-position: -161px -435px;
+                margin: 18px auto 40px;
+            }
+        }
+    }
+}

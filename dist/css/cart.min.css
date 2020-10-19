@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+img {
+  border: none;
+}
+
+.cart {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.cart .cart-head {
+  height: 28px;
+  background-image: url(../img/cart-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  padding-top: 40px;
+  padding-left: 610px;
+}
+
+.cart .cart-head ul {
+  float: right;
+  height: 16px;
+  width: 275px;
+  overflow: hidden;
+}
+
+.cart .cart-head ul li {
+  height: 16px;
+  display: block;
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #CCCCCC;
+  line-height: 16px;
+}
+
+.cart .cart-head ul a:hover {
+  color: #999999;
+  text-decoration: underline;
+}
+
+.cart .cart-date {
+  width: 934px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+
+.cart .cart-date .tip {
+  background-image: url(../img/cart-tip-bg.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  height: 33px;
+  text-align: center;
+  color: #333333;
+}
+
+.cart .amount {
+  text-align: right;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-top: 5px;
+  color: #333333;
+}
+
+.cart .amount span {
+  color: #FF0000;
+  font-size: 12px;
+}
+
+.cart .cart-area {
+  margin-top: 15px;
+  height: 30px;
+}
+
+.cart .cart-area p {
+  height: 30px;
+  width: 627px;
+  line-height: 30px;
+  float: left;
+}
+
+.cart .cart-area p .btn {
+  margin-left: 3px;
+}
+
+.cart .cart-area .too {
+  float: right;
+  line-height: 30px;
+}
+
+.cart .cart-area .too a img {
+  margin-left: 10px;
+}

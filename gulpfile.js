@@ -27,8 +27,8 @@ function fnJS(){
     .pipe(babel({
         presets: ['@babel/env']
     }))
-    .pipe(concat('index.js'))
-    .pipe(uglify())
+    // .pipe(concat('index.js'))
+    // .pipe(uglify())
     .pipe(rename({suffix : '.min'}))
     .pipe(gulp.dest('./dist/js'));
 }
@@ -38,15 +38,25 @@ function fnImg(){
     .pipe(image())
     .pipe(gulp.dest('./dist/img'));
 }
+function fnHTML(){
+    return gulp.src('./src/pages/*.html')
+        // .pipe(html())
+        .pipe(rename({suffix : '.min'}))
+        .pipe(gulp.dest('./dist/pages'));
+
+}
 //监听任务
 function fnWatch(){
     gulp.watch('./src/index.html',fnCopyIndex);
     gulp.watch('./src/sass/*.scss',fnCss);
     gulp.watch('./src/js/*.js',fnJS);
+    gulp.watch('./src/pages/*.html',fnHTML);
 }
+
 //导出模块
 exports.copy = fnCopyIndex;
 exports.css = fnCss;
 exports.js = fnJS;
 exports.img = fnImg;
+exports.copyhtml = fnHTML;
 exports.default = fnWatch;
