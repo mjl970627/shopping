@@ -371,9 +371,12 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 666;
 }
 
 .nav .navbox .shop dl {
+  position: relative;
+  z-index: 555;
   overflow: hidden;
   width: 230px;
   height: 0;
@@ -612,4 +615,261 @@ img {
   font-size: 14px;
   color: #444;
   font-family: microsoft yahei;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.content .ye {
+  line-height: 34px;
+  color: #999;
+  width: 980px;
+  height: 34px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.content .left {
+  width: 230px;
+  float: left;
+  padding-bottom: 30px;
+}
+
+.content .left .sid {
+  width: 228px;
+  border: 1px solid #e4e4e4;
+  color: #333;
+}
+
+.content .left .sid h3 {
+  width: 228px;
+  background: url(../img/h3bg.jpg) repeat-x;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.content .left .sid h3 .close {
+  width: 15px;
+  height: 14px;
+  float: left;
+  margin: 10px 10px 0 12px;
+  background: url(../img/detail.gif) no-repeat 0 -248px;
+}
+
+.content .left .sid h3 .sl {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.content .left .week {
+  width: 228px;
+  margin-top: 10px;
+  border: 1px solid #e4e4e4;
+}
+
+.content .left .week .tit {
+  width: 226px;
+  height: 33px;
+  line-height: 33px;
+  margin: 1px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #e4e4e4;
+  background: url(../img/p2lbg.jpg) repeat-x;
+}
+
+.content .left .week .good {
+  border-bottom: 1px dashed #e4e4e4;
+  text-align: center;
+  padding: 6px;
+  width: 216px;
+}
+
+.content .left .week .good .imgbox {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+}
+
+.content .left .week .good .tex p {
+  line-height: 20px;
+}
+
+.content .left .week .good .tex .proname {
+  width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0 3px;
+  font-size: 12px;
+}
+
+.content .left .week .good .tex .proprice {
+  color: #ff1a3a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content .left .box-tj {
+  width: 228px;
+  margin-top: 10px;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.content .left .box-tj .buy {
+  width: 226px;
+  height: 33px;
+  line-height: 33px;
+  margin: 1px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #e4e4e4;
+  background: url(../img/p2lbg.jpg) repeat-x;
+}
+
+.content .left .box-tj .rx {
+  padding: 15px 10px;
+  margin-bottom: 0px;
+  width: 208px;
+  height: 82px;
+  overflow: hidden;
+}
+
+.content .left .box-tj .rx .rx-img {
+  width: 100px;
+  height: 82px;
+  float: left;
+}
+
+.content .left .box-tj .rx .rx-img img {
+  width: 100px;
+  height: 82px;
+}
+
+.content .left .box-tj .rx .text {
+  width: 102px;
+  padding-top: 15px;
+  float: left;
+  font-size: 12px;
+}
+
+.content .left .box-tj .rx .text .name {
+  text-align: left;
+  height: 30px;
+  overflow: hidden;
+}
+
+.content .left .box-tj .rx .text .price {
+  margin-top: 8px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ff1a3a;
+}
+
+.content .right {
+  width: 960px;
+  float: right;
+}
+
+.content .right .part {
+  width: 466px;
+  height: 300px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 1px;
+  float: left;
+  margin-right: 10px;
+}
+
+.content .right .part .imgpox {
+  width: 228px;
+  height: 300px;
+  float: left;
+}
+
+.content .right .part .wom {
+  width: 208px;
+  padding: 12px 15px 0 15px;
+  float: left;
+  position: relative;
+}
+
+.content .right .part .wom .zui {
+  display: block;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.content .right .part .wom .zui img {
+  border-radius: 50%;
+}
+
+.content .right .part .wom .nei {
+  width: 158px;
+  float: right;
+}
+
+.content .right .part .wom .nei .na {
+  font-size: 12px;
+}
+
+.content .right .part .wom .nei .me {
+  margin-top: 8px;
+  line-height: 24px;
+  font-size: 12px;
+  height: 190px;
+  overflow: hidden;
+}
+
+.content .right .part .wom .cp {
+  width: 209px;
+  height: 61px;
+  background: url(../img/detail.gif) no-repeat 0 -262px;
+  position: absolute;
+  top: 232px;
+  left: -5px;
+  padding: 8px 17px 0 24px;
+}
+
+.content .right .part .wom .cp .mei {
+  font-weight: bold;
+  color: #fff;
+  line-height: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+
+.content .right .part .wom .cp .gui {
+  color: #fff000;
+  font-size: 20px;
+}
+
+.content .right .part .wom .cp .gui a {
+  display: block;
+  float: right;
+  font-size: 14px;
+  color: #6c112b;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 15px;
+  border-radius: 15px;
+  background: #fff000;
+  text-align: center;
 }

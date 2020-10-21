@@ -339,8 +339,11 @@ img {
             position: absolute;
             top: 0;
             left: 0;
+            z-index: 666;
             dl{
                 // display: none;
+                position: relative;
+                z-index: 555;
                 overflow: hidden;
                 width: 230px;
                 height: 0;

@@ -1,1 +1,227 @@
 @import 'public';
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    .ye{
+        line-height: 34px;
+        color: #999;
+        width: 980px;
+        height: 34px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .left{
+        width: 230px;
+        float: left;
+        padding-bottom: 30px;
+        .sid{
+            width: 228px;
+            border: 1px solid #e4e4e4;
+            color: #333;
+            h3{
+                width: 228px;
+                background: url(../img/h3bg.jpg) repeat-x;
+                height: 36px;
+                line-height: 36px;
+                cursor: pointer;
+                font-size: 13px;
+                .close{
+                    width: 15px;
+                    height: 14px;
+                    float: left;
+                    margin: 10px 10px 0 12px;
+                    background: url(../img/detail.gif) no-repeat 0 -248px;
+                }
+                .sl{
+                    font-size: 12px;
+                    color: #999;
+                    font-weight: normal;
+                    margin-left: 2px;
+                }
+            }
+        }
+        .week{
+            width: 228px;
+            margin-top: 10px;
+            border: 1px solid #e4e4e4;
+            .tit{
+                width: 226px;
+                height: 33px;
+                line-height: 33px;
+                margin: 1px;
+                color: #333;
+                font-size: 14px;
+                text-align: center;
+                font-weight: bold;
+                border-bottom: 1px solid #e4e4e4;
+                background: url(../img/p2lbg.jpg) repeat-x;
+            }
+            .good{
+                border-bottom: 1px dashed #e4e4e4;
+                text-align: center;
+                padding: 6px;
+                width: 216px;
+                .imgbox{
+                    width: 120px;
+                    height: 120px;
+                    margin: 10px auto;
+                }
+                .tex{
+                    p{
+                        line-height: 20px;
+                        
+                    }
+                    .proname{
+                        width: 210px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        text-align: center;
+                        padding: 0 3px;
+                        font-size: 12px;
+                    }
+                    .proprice{
+                        color: #ff1a3a;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .box-tj{
+            width: 228px;
+            margin-top: 10px;
+            border: 1px solid #e4e4e4;
+            overflow: hidden;
+            .buy{
+                width: 226px;
+                height: 33px;
+                line-height: 33px;
+                margin: 1px;
+                color: #333;
+                font-size: 14px;
+                text-align: center;
+                font-weight: bold;
+                border-bottom: 1px solid #e4e4e4;
+                background: url(../img/p2lbg.jpg) repeat-x;
+            }
+            .rx{
+                padding: 15px 10px;
+                margin-bottom: 0px;
+                width: 208px;
+                height: 82px;
+                overflow: hidden;
+                .rx-img{
+                    width: 100px;
+                    height: 82px;
+                    // text-align: left;
+                    float: left;
+                    img{
+                        width: 100px;
+                        height: 82px;
+                    }
+                }
+                .text{
+                    width: 102px;
+                    padding-top: 15px;
+                    float: left;
+                    font-size: 12px;
+                    .name{
+                        text-align: left;
+                        height: 30px;
+                        overflow: hidden;
+                    }
+                    .price{
+                        margin-top: 8px;
+                        text-align: right;
+                        font-weight: bold;
+                        font-size: 14px;
+                        color: #ff1a3a;
+                    }
+                }
+            }
+        }
+    }
+    .right{
+        width: 960px;
+        float: right;
+        .part{
+            width: 466px;
+            height: 300px;
+            margin-bottom: 10px;
+            background: #fff;
+            border: 1px solid #e7e7e7;
+            padding: 1px;
+            float: left;
+            margin-right: 10px;
+            .imgpox{
+                width: 228px;
+                height: 300px;
+                float: left;
+            }
+            .wom{
+                width: 208px;
+                padding: 12px 15px 0 15px;
+                float: left;
+                position: relative;
+                .zui{
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+                .nei{
+                    width: 158px;
+                    float: right;
+                    .na{
+                        font-size: 12px;
+                    }
+                    .me{
+                        margin-top: 8px;
+                        line-height: 24px;
+                        font-size: 12px;
+                        height: 190px;
+                        overflow: hidden;
+                    }
+                }
+                .cp{
+                    width: 209px;
+                    height: 61px;
+                    background : url(../img/detail.gif) no-repeat 0 -262px;
+                    position: absolute;
+                    top: 232px;
+                    left: -5px;
+                    padding: 8px 17px 0 24px;
+                    .mei{
+                        font-weight: bold;
+                        color: #fff;
+                        line-height: 28px;
+                        height: 28px;
+                        overflow: hidden;
+                    }
+                    .gui{
+                        color: #fff000;
+                        font-size: 20px;
+                        a{
+                            display: block;
+                            float: right;
+                            font-size: 14px;
+                            color: #6c112b;
+                            height: 24px;
+                            line-height: 24px;
+                            padding: 0 15px;
+                            border-radius: 15px;
+                            background: #fff000;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
