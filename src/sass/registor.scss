@@ -43,6 +43,16 @@
                             margin-left: 3px;
                             display: none;
                         }
+                        #rand{
+                            display: inline-block;
+                            font-size: 18px;
+                            padding-left: 0;
+                            color: red;
+                            width: 20px;
+                        }
+                        .huan{
+                            margin-left: 20px;;
+                        }
                         .inp{
                             width: 200px;
                             padding: 2px;        
@@ -67,10 +77,12 @@
                         }
                     }
                     .btn{
+                        display: block;
                         height: 29px;
                         width: 90px;
                         margin-left: 170px;
                         margin-bottom: 20px;
+                        background: url(../img/btn-reg.png) no-repeat;
                     }
                     .ipt{
                         height: 55px;

@@ -672,6 +672,18 @@ img {
   display: none;
 }
 
+#wrap .big .reg form .regbox .input #rand {
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 0;
+  color: red;
+  width: 20px;
+}
+
+#wrap .big .reg form .regbox .input .huan {
+  margin-left: 20px;
+}
+
 #wrap .big .reg form .regbox .input .inp {
   width: 200px;
   padding: 2px;
@@ -700,10 +712,12 @@ img {
 }
 
 #wrap .big .reg form .regbox .btn {
+  display: block;
   height: 29px;
   width: 90px;
   margin-left: 170px;
   margin-bottom: 20px;
+  background: url(../img/btn-reg.png) no-repeat;
 }
 
 #wrap .big .reg form .regbox .ipt {

@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>购物车</title>
     <link rel="stylesheet" href="../css/cart.min.css">
-    <script src="../js/jquery-1.12.4.min.js"></script>
-    <script src="../js/index.min.js"></script>
 </head>
 <body>
     <div class="cart">
@@ -29,7 +27,7 @@
         <div class="cart-date">
             <form action="">
                 <table width="0" border="0" cellspacing="0">
-                    <tbody>
+                    <tbody class="cartList">
                         <tr class="tip">
                             <td width="36" height="33">序号</td>
                             <td width="554" height="33">商品名称</td>
@@ -41,13 +39,24 @@
                             <td width="70" height="33">转入收藏夹</td>
                             <td width="45" height="33">删除</td>
                         </tr>
+                        <!-- <tr class="goodinfo" data-good-id = "sp1">
+                            <td width="36" height="33">1</td>
+                            <td width="554" height="33" style="text-align: left;"><a href="javascripy:;">Jurlique 茱莉蔻玫瑰按摩油</a></td>
+                            <td width="41" height="33">100ml</td>
+                            <td width="49" height="33">500</td>
+                            <td width="47" height="33">286</td>
+                            <td width="29" height="33" class="num">1</td>
+                            <td width="59" height="33" class="total">268</td>
+                            <td width="70" height="33">转入收藏夹</td>
+                            <td width="45" height="33"><a href="javascript:;" class="del">删除</a></td>
+                        </tr> -->
                     </tbody>
                 </table>
             </form> 
             <div class="amount">
                 <b>
                     应付商品金额：
-                    <span>￥0</span>
+                    ￥<span class="sho">0</span>
                     元
                 </b>
             </div>
@@ -68,5 +77,11 @@
             </div>
         </div>
     </div>
+    <script src="../js/cookie.min.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+        
+        <script src="../js/cart.min.js"></script>
+       
+        
 </body>
 </html>

@@ -107,7 +107,7 @@
         <div class="cart">
             <div class="cat">
                 购物车：
-                <b>0</b>
+                <b class="jishu">0</b>
                 件
             </div>
             <div class="catlist">&nbsp;&nbsp;&nbsp;&nbsp;购物车中还没有商品，赶紧选购吧！</div>
@@ -273,14 +273,16 @@
                     <a href="#"></a>
                 </div>
             </div>
-            <div class="rig">
-                <h3>Jurlique 茱莉蔻玫瑰按摩油 100ml
+            <div class="rig" data-good-id="001">
+                <h3>
+                    <span id="gname">Jurlique 茱莉蔻玫瑰按摩油</span> 
+                    <span id="spec">100ml</span>
                     <span class="tit">宠爱每一寸肌肤 面部、身体都可使用</span>
                 </h3>
                 <div class="cppro">
                     <p>英文名称：Jurlique Rose Body Oil</p>
                     <p>商品编号：11014</p>
-                    <p>No5&nbsp;&nbsp;&nbsp;价：<span class="money">￥268.00</span>
+                    <p>No5&nbsp;&nbsp;&nbsp;价：￥<span class="money">268.00</span>
                         <span class="pri">市场价： ￥500.00</span>
                         <span class="pri">折扣： 5.4折</span></p>
                 </div>
@@ -331,11 +333,11 @@
                     </p>
                     <div id="buybox">
                         <span>我要买：
-                            <img src="../img/reduce.jpg" alt="">
+                            <img src="../img/reduce.jpg" alt="" id="reduce">
                             <input type="text" value="1" class="ip">
-                            <img src="../img/add.jpg" alt="">
+                            <img src="../img/add.jpg" alt="" id="add">
                         </span>
-                        <button type="button" class="prodbtn btnbuy"></button>
+                        <button type="button" class="prodbtn btnbuy" id="buyR"></button>
                         <button type="button" class="prodbtn btnfav"></button>
                     </div>
                 </div>
@@ -836,11 +838,12 @@
             </div>
         </div>
     </div>
-    <script src="../js/jquery-1.12.4.min.js"></script>
-    <script src="../js/index.min.js"></script>
     <footer></footer>
     <bottom></bottom>
     <foot></foot>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/cookie.min.js"></script>
+        <script src="../js/product.min.js"></script>
 </body>
 
 </html>

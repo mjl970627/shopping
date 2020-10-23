@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册</title>
     <link rel="stylesheet" href="../css/registor.min.css">
-    <script src="../js/jquery-1.12.4.min.js"></script>
-    <script src="../js/index.min.js"></script>
+    
 </head>
 <body>
     <!-- header -->
@@ -262,7 +261,8 @@
                         <div class="input">
                             <p>验证码：</p>
                             <input type="text" id="yan" id="code">
-                            <img src="../img/VerifyCode.dib" >
+                            <span id="rand"></span>
+                            <b class="huan">换一张</b>
                             <span></span>
                         </div>
                         <div class="input">
@@ -273,11 +273,11 @@
                             <span></span>
                         </div>
                         <div class="btn">
-                            <input type="image" src="../img/btn-reg.png">
+                            <a href="#"></a>
                         </div>
                         <div class="ipt">
                             如果您已经是No5时尚广场的会员，请点击
-                            <a href="#">[登录]</a>
+                            <a href="../pages/login.min.html">[登录]</a>
                         </div>
                     </div>
                 </form>
@@ -446,8 +446,10 @@
             Copyright @ 2001-2020 N°5.com.cn All Rights Reserved 京ICP备11045170号 | 
             <a href="#">营业执照</a>
         </p>
-        <script src="../js/public.min.js"></script>
-        <script src="../js/jquery.cookie.min.js"></script>
+
+        <script src="../js/jquery-1.12.4.min.js"></script>
+        <script src="../js/cookie.min.js"></script>
         <script src="../js/registor.min.js"></script>
+        <script src="../js/index.min.js"></script>
 </body>
 </html>
